@@ -1,8 +1,11 @@
 # POKEDEX - RETO AVATARIAN
-Bienvenido al reto de programacion de la empresa AVATAR
+
+Bienvenido al reto de programación de la empresa AVATAR. En la cual la meta es crear una Pokedex.
 
 ## 🏗️ Estructura del Proyecto
+
 En el proyecto vera la siguiente estructura:
+
 ```
 /
 ├── public/
@@ -25,7 +28,9 @@ En el proyecto vera la siguiente estructura:
 │   └── utils/
 └── package.json
 ```
+
 ## 💻 Comandos
+
 Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal
 
 | Comando           | Accion                                                                |
