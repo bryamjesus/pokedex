@@ -2,6 +2,8 @@
 
 Bienvenido al reto de programación de la empresa AVATAR. En la cual la meta es crear una Pokedex.
 
+- Tambien lo puede ver el proyecto desplegado en el siguiente [link](https://pokedex-reto-avatariano.netlify.app/)
+
 ## 🏗️ Estructura del Proyecto
 
 En el proyecto vera la siguiente estructura:
