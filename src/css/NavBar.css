@@ -1,0 +1,11 @@
+/* Navbar */
+.pa-navBar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 40px 0;
+}
+
+.pa-navBar-logo {
+  width: 150px;
+}

@@ -1,0 +1,6 @@
+.pa-loader {
+  width: 100%;
+  height: calc(100vh - 118.25px);
+  display: grid;
+  place-items: center;
+}

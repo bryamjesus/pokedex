@@ -1,0 +1,36 @@
+.buttonPagination {
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: #15ffa1;
+  display: flex;
+  border: 0;
+  gap: 2rem;
+}
+
+.buttonPagination-text {
+  font-size: 1.3rem;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .buttonPagination-icon {
+    display: none;
+  }
+  .buttonPagination-text {
+    display: inherit;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .buttonPagination-icon {
+    display: inherit;
+  }
+  .buttonPagination-text {
+    display: inherit;
+  }
+}
+
+.display-none {
+  display: none;
+}

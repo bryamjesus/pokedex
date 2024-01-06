@@ -1,0 +1,103 @@
+.pokemonPage-header {
+  display: grid;
+  grid-template-areas:
+    'b'
+    'a';
+}
+.pokemonPage-infoPrincipal {
+  grid-area: a;
+  display: grid;
+  grid-template-areas:
+    'code name'
+    'type type';
+  gap: 2rem 1rem;
+  padding-top: 1rem;
+
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.pokemonPage-codePokemon {
+  grid-area: code;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pokemonPage-codePokemon img {
+  height: 100%;
+}
+
+.pokemonPage-name {
+  grid-area: name;
+}
+
+.pokemonPage-container-img {
+  grid-area: b;
+}
+
+.pokemonPage-img {
+  height: 200px;
+}
+
+.pokemonPage-types {
+  grid-area: type;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.pokemonPage-type {
+  font-size: 1.2rem;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .pokemonPage-header {
+    grid-template-areas: 'a b';
+  }
+
+  .pokemonPage-infoPrincipal {
+    grid-template-areas:
+      'code'
+      'name'
+      'type';
+    align-items: inherit;
+    gap: 20px;
+  }
+
+  .pokemonPage-codePokemon {
+    font-size: 5rem;
+    color: #313131;
+  }
+
+  .pokemonPage-name {
+    font-size: 3.5rem;
+  }
+
+  .pokemonPage-img {
+    height: 300px;
+  }
+}
+
+.pokemonPage-minInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.pokemonPage-titleStats {
+  padding: 30px 0;
+}
+
+.pokemonPage-groupsStat {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

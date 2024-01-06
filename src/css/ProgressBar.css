@@ -1,0 +1,30 @@
+.progressBar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.progressBar-tipeStat {
+  width: 35%;
+}
+
+.progressBar-bar {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.progressBar-stuffed {
+  background: rgb(157, 140, 235);
+  text-align: center;
+  height: 100%;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+
+@media (min-width: 768px) {
+  .progressBar-tipeStat {
+    width: 15%;
+  }
+}

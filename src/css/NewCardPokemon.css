@@ -1,0 +1,80 @@
+.cardPokemon {
+  border-radius: 1rem;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.25);
+  padding-block: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.cardPokemon-back {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 5rem;
+  font-weight: 800;
+  z-index: -1;
+  color: #ececec;
+}
+
+.cardPokemon-imagen {
+  padding-inline: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cardPokemon-img {
+  max-width: 6rem;
+  height: 96px;
+  transition: transform 0.4s ease;
+}
+
+.cardPokemon:hover .cardPokemon-img {
+  transform: scale(1.1);
+}
+
+.cardPokemon-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-inline: 1rem;
+  padding: 1rem 0;
+  align-items: center;
+  text-align: center;
+}
+
+.cardPokemon-container {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardPokemon-id {
+  background-color: #ececec;
+  padding: 0.25rem 0.5rem;
+  border-radius: 100vmax;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.cardPokemon-name {
+  font-size: 1.4rem;
+}
+
+.cardPokemon-types {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.cardPokemon-types span {
+  font-size: 12px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
