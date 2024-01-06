@@ -14,7 +14,6 @@ En el proyecto vera la siguiente estructura:
 │   └── vite.svg
 ├── src/
 │   ├── assets/
-│   │   └── Layout.astro
 │   ├── components/
 │   │   ├── Buttons/
 │   │   ├── Loader/
