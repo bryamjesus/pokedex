@@ -19,7 +19,6 @@ export const PokemonPage = () => {
   const getByIdPokemon = async (id) => {
     const data = await getOnePokemon(id);
     setPokemon(data);
-    console.log(data);
     setColor(data?.types[0]?.type?.name);
     setLoading(false);
     const objStatMax = getMaxObj([...data.stats], 'base_stat');
@@ -74,11 +73,11 @@ export const PokemonPage = () => {
           <section className="container pokemonPage-moreInfo">
             <div className="pokemonPage-minInfo">
               <div className="">
-                <h3>Altura</h3>
+                <h3>Height</h3>
                 <span>{pokemon.height}</span>
               </div>
               <div className="">
-                <h3>Peso</h3>
+                <h3>Weight</h3>
                 <span>{pokemon.weight}KG</span>
               </div>
             </div>

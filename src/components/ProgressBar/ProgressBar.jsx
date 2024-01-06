@@ -9,7 +9,6 @@ export const ProgressBar = ({ nameAttack, stats, statMax }) => {
       : statMax > 200
       ? stats / 3
       : stats;
-  console.log(stat);
   return (
     <>
       <div className="progressBar">
