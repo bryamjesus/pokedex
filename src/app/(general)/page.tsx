@@ -1,9 +1,12 @@
-export default function PokemonsPage() {
+import { PokemonGrid } from '@/components/pokemons/PokemonGrid';
+import { getPokemons } from '@/service/PokemonService';
+
+export default async function PokemonsPage() {
+  const pokemons = await getPokemons();
   return (
     <>
       <div className="container">
-        <h1>Pokemons</h1>
-        <p>Here you can find all the pokemons</p>
+        <PokemonGrid pokemons={pokemons} />
       </div>
     </>
   );
