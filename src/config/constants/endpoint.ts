@@ -1,0 +1,9 @@
+import {
+  POKEMON_API_BASE,
+  POKEMON_API_RESOURCE,
+  POKEMON_API_VERSION,
+} from '../env';
+
+export const endpoint = {
+  POKEMON: `${POKEMON_API_BASE}/${POKEMON_API_VERSION}/${POKEMON_API_RESOURCE}`,
+};
