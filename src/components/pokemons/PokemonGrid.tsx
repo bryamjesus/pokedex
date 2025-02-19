@@ -8,7 +8,7 @@ type Props = {
 export const PokemonGrid = ({ pokemons }: Props) => {
   return (
     <>
-      <div className="grid gap-1 grid-cols-[repeat(auto-fit,minmax(250px,1fr))]">
+      <div className="grid gap-4 grid-cols-[repeat(auto-fit,minmax(250px,1fr))]">
         {pokemons.map((pokemon, index) => (
           <PokemonCard key={index} pokemon={pokemon} />
         ))}
